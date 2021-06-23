@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    /* background-color: white; */
+    background: rgb(244,245,247);
+  background: linear-gradient(90deg, rgba(244,245,247,1) 0%, rgba(223,224,226,1) 100%);
+}
+
+.hi {
+  font-size: 5rem;
+  font-family: 'Mr De Haviland', cursive;
+}
+
+h1 {
+  font-size: 10rem;
+  font-family: 'Mr De Haviland', cursive;
+}
+h2 {
+  font-size: 2rem;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 200;
+}
+p {
+  font-size: 1.120rem;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+}
+
+#home {
+    background-color: #313131;
+}
+
+.welcome-txt {
+    padding-top: 15%;
+    padding-bottom: 10%;
+    width: auto;
+    height: auto;
+    margin: auto;
+    /* background-color: #313131; */
+    /* border: 1px solid red; */
+}
+
+.parallax {
+    /*height: 100vh;  the view height value */
+    /* height: 600px; */
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax-two {
+    /*height: 100vh;  the view height value */
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: #313131; */
+}
+
+.bgOne {
+    background-image: url('https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg');
+}
+
+.nav-link {
+ color: #3E1772 !important;
+}
+
+.separation-arrow {
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 5%, 50% 100%, 0 5%);
+    background-color: #313131;
+    height: 150px;
+    /* border: 1px solid red; */
+}
+
+.vertical-line {
+    width: 3px;
+    height: 175px;
+    /* background: #696464; */
+    margin: 20px auto 0 auto;
+    /* padding-bottom: 3%; */
+  }
+
+  .circle {
+    width: 180px;
+    height: 180px;
+    /* background: #696464; */
+    border-radius: 100px;
+    position: relative;
+    margin: 10px auto 0 auto;
+  }
+
+  .fa-award, .fa-envelope{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #fff;
+    font-size: 70px;
+  }
+
+
+.fa-paper-plane, .fa-linkedin, .fa-github, .fa-tv{
+    font-size: 70px;
+}
+
+.img-logo {
+  width: 100px;
+}
+
+.link-color {
+  color: #3E1772;
+}
+
+
+
+
+
+  .portfolio .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  .portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    /* background: #3E1772; */
+    background-color: rgba(62, 21, 145, 0.9);
+  
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+  }
+  .portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    font-size: 1.25rem;
+    color: white;
+  }
+  .portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+    opacity: 1;
+  }
+  .portfolio .portfolio-item .portfolio-caption {
+    padding: 1.5rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+  .portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+    font-size: 1.5rem;
+    /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  .portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+    /* font-style: italic; */
+    /* font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  }
+  
+
+.portfolio-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw;
+  }
+  .portfolio-modal .modal-content {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+  }
+  .portfolio-modal .modal-content h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .portfolio-modal .modal-content p.item-intro {
+    font-style: italic;
+    margin-bottom: 2rem;
+    /* font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  }
+  .portfolio-modal .modal-content p {
+    margin-bottom: 2rem;
+  }
+  .portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 2rem;
+  }
+  .portfolio-modal .modal-content img {
+    margin-bottom: 2rem;
+  }
+  .portfolio-modal .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+  }
+  .portfolio-modal .close-modal:hover {
+    opacity: 0.3;
+  }
