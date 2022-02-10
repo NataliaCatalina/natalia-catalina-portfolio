@@ -221,6 +221,11 @@ p {
 *    Mobile   *
 **************/
 @media screen and (max-width: 600px) {
+
+  .hi {
+    font-size: 3.5rem;
+  }
+
   .welcome-name {
     font-size: 6rem;
   }
