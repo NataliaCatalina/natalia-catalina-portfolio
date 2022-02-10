@@ -222,7 +222,7 @@ p {
 **************/
 @media screen and (max-width: 600px) {
   .welcome-name {
-    font-size: 5rem;
+    font-size: 6rem;
   }
   .welcome-title {
     font-size: 1.5rem;
