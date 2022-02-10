@@ -5,32 +5,36 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
   text-align: center;
   background: rgb(244, 245, 247);
-  background: linear-gradient(90deg, rgba(244, 245, 247, 1) 0%, rgba(223, 224, 226, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(244, 245, 247, 1) 0%,
+    rgba(223, 224, 226, 1) 100%
+  );
 }
 
 .hi {
   font-size: 5rem;
-  font-family: 'Mr De Haviland', cursive;
+  font-family: "Mr De Haviland", cursive;
 }
 
 h1 {
   font-size: 10rem;
-  font-family: 'Mr De Haviland', cursive;
+  font-family: "Mr De Haviland", cursive;
 }
 
 h2 {
   font-size: 2rem;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 200;
 }
 
 p {
-  font-size: 1.120rem;
-  font-family: 'Overpass', sans-serif;
+  font-size: 1.12rem;
+  font-family: "Overpass", sans-serif;
   font-weight: 400;
 }
 
@@ -63,11 +67,11 @@ p {
 }
 
 .bgOne {
-  background-image: url('https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg');
+  background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg");
 }
 
 .nav-link {
-  color: #3E1772 !important;
+  color: #3e1772 !important;
 }
 
 .separation-arrow {
@@ -114,9 +118,8 @@ p {
 }
 
 .link-color {
-  color: #3E1772;
+  color: #3e1772;
 }
-
 
 .portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -136,7 +139,11 @@ p {
   transition: opacity ease-in-out 0.25s;
 }
 
-.portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+.portfolio
+  .portfolio-item
+  .portfolio-link
+  .portfolio-hover
+  .portfolio-hover-content {
   font-size: 1.25rem;
   color: white;
 }
@@ -202,4 +209,19 @@ p {
 
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
+}
+
+/**************
+*    tablet   *
+**************/
+@media screen and (min-width: 601px) and (max-width: 799px) {
+}
+
+/**************
+*    Mobile   *
+**************/
+@media screen and (max-width: 600px) {
+  .welcome-name {
+    font-size: 7rem;
+  }
 }
