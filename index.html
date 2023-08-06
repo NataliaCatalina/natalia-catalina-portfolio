@@ -1,611 +1,1003 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-P3JNWS7YVM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Font-awesome  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous" />
-
-  <!-- Google Font  -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Overpass:wght@200;400;700&display=swap" rel="stylesheet">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Natalia Catalina</title>
-</head>
-
-<body>
-
-  <!-- welcome text -->
-  <div class="parallax bgOne">
-    <div id="home" class="parallax bgOne">
-      <div class="container text-center text-white welcome-txt">
-        <h1 class="hi">Hi, I'm </h1>
-        <h1 class="welcome-name">Natalia Catalina</h1>
-        <h2 class="welcome-title">Web Developer & Photo Artist</h2>
-      </div>
-    </div>
-
-    <div class="container-fluid top-nav bg-transparent sticky-top">
-      <nav class="nav nav-pills justify-content-center fw-bold fixed-top bg-light">
-        <li class="nav-item ">
-          <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item ">
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#projects" class="nav-link">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact" class="nav-link">Contact</a>
-        </li>
-      </nav>
-    </div>
-
-  </div>
-  <div class="separation-arrow parallax bgOne"></div>
-
-  <!-- ABOUT  -->
-  <section class=" mt-5" id="about">
-    <!-- <div class="vertical-line parallax bgOne"></div> -->
-    <img class="mt-5" src="image/profile-natalia.png" alt="">
-    <h2 class="m-5">About Me</h2>
-    <div class="container w-20">
-      <p>
-        Coming from a background in visual design, I have discovered a passion for Web, specifically Front-End
-        Development. <br>
-        I have a desire to develop meaningful products and services.<br><br>
-        Powered by Figma, VS Code, and coffee, I bring ideas to life, and
-        my background in the Adobe Suite has proven valuable within web.<br><br>
-        I also deliver a large range of quality photos to a variety of high-profile photostock websites.
-      </p>
-    </div>
-    <img class="img-fluid" src="image/skills.png"
-      alt="skills: htmll, JavaScript, css, jquery, sass, bootstrap, MySQL, node.js, php, wordpress, github, Visual Studio Code, Atom, Trello, Figma, Adobe Bridge, Adobe Lightroom, Adobe Photoshop">
-  </section>
-
-  <section class="mt-5" id="projects">
-    <div class="mt-5 circle parallax bgOne">
-      <i class="fas fa-award"></i>
-    </div>
-    <h2 class="m-5">Website Portfolio</h2>
-
-
-    <!-- WEBSITES  -->
-    <div class="page-section portfolio" id="websites">
-
-      <div class="container">
-        <div class="row">
-
-          <!-- My Portfolio  -->
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-07">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/natalia-mockup.jpg" alt="ByMiles Mockup" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Natalia Catalina Portfolio</div>
-                <div class="portfolio-caption-subheading text-muted">Webflow Personal Project</div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Sagar Portfolio  -->
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-06">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/sagar-mockup.jpg" alt="ByMiles Mockup" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Sagar Portfolio</div>
-                <div class="portfolio-caption-subheading text-muted">Freelance Project</div>
-              </div>
-            </div>
-          </div>
-
-          <!-- ByMiles Portfolio  -->
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-05">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/ByMiles.jpg" alt="ByMiles Mockup" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">ByMiles Portfolio</div>
-                <div class="portfolio-caption-subheading text-muted">Freelance Project</div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Aye Empanadas  -->
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-04">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/aye-mockup.jpg" alt="Mockup" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Aye Empanadas & More</div>
-                <div class="portfolio-caption-subheading text-muted">Freelance Project</div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Enspiral Dev Blog  -->
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-03">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/devAcademy.jpg" alt="Mockup" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">My Enspiral Dev Academy Blog</div>
-                <div class="portfolio-caption-subheading text-muted">Enspiral Dev Academy Projects</div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Prelude Portfolio  -->
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-02">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/prelude-mockup.jpg" alt="Mockup" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Prelude</div>
-                <div class="portfolio-caption-subheading text-muted">Graduation website for Yoobee Colleges 2021</div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Modal  -->
-
-      <!-- My Portfolio Modal -->
-      <div class="portfolio-modal modal fade" id="exampleModal-07" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <button type="button" class="btn-close close-modal" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
-                    <h2 class="text-uppercase">Natalia Catalina Portfolio</h2>
-                    <p class="item-intro text-muted">Webflow Personal Project</p>
-                    <img class="img-fluid d-block mx-auto" src="image/natalia-mockup.jpg" alt="Mockup" />
-                    <p>
-                      Redesigned web portfolio built on Webflow! As a passionate web designer and developer, I've carefully curated this showcase to highlight some of my latest projects and skills. Explore the seamless user experience, captivating designs, and innovative functionalities that reflect my dedication to creating impactful digital experiences.
-                    </p>
-                    <ul class="row list-inline">
-                      <div class="col">
-                        <a class="link-color" href="https://nataliacatalina-portfolio.webflow.io/" target="_blank">
-                          <i class="fas fa-tv"></i>
-                          <p>View Site</p>
-                        </a>
-                      </div>
-                    </ul>
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-                      <i class="fas fa-times mr-1"></i>
-                      Close Project
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Sagar Modal -->
-      <div class="portfolio-modal modal fade" id="exampleModal-06" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <button type="button" class="btn-close close-modal" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
-                    <h2 class="text-uppercase">Sagar Portfolio</h2>
-                    <p class="item-intro text-muted">Freelance Project</p>
-                    <img class="img-fluid d-block mx-auto" src="image/sagar-mockup.jpg" alt="Mockup" />
-                    <p>
-                      Website designed in WordPress to highlight Sagar portfolio in various fields. This comprehensive showcase features their work in 3D animation, motion capture, visual effects (VFX), acting, and related areas. Visitors can explore a wide range of talents and accomplishments, gaining valuable insights into the client's expertise and capabilities. With a user-friendly interface and seamless navigation, the WordPress-powered website provides an immersive experience, allowing viewers to delve into Sagar's creative journey and remarkable achievements.
-                    </p>
-                    <ul class="row list-inline">
-                      <div class="col">
-                        <a class="link-color" href="https://www.sagarlonkar.com/" target="_blank">
-                          <i class="fas fa-tv"></i>
-                          <p>View Site</p>
-                        </a>
-                      </div>
-                    </ul>
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-                      <i class="fas fa-times mr-1"></i>
-                      Close Project
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- ByMiles Modal -->
-      <div class="portfolio-modal modal fade" id="exampleModal-05" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <button type="button" class="btn-close close-modal" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
-                    <h2 class="text-uppercase">ByMiles Portfolio</h2>
-                    <p class="item-intro text-muted">Freelance Project</p>
-                    <img class="img-fluid d-block mx-auto" src="image/ByMiles.jpg" alt="Mockup" />
-                    <p>
-                      A portfolio page developed for the ByMiles brand - a freelancer specializing in film and animation. The REACT-based website was designed as a clean, theatre-like experience to showcase the visual elements of their work.
-                    </p>
-                    <ul class="row list-inline">
-                      <div class="col">
-                        <a class="link-color" href="https://www.figma.com/file/QputyjSu2yN3agFXiPuH4C/BY-MILES?node-id=0%3A1"
-                          target="_blank">
-                          <i class="fab fa-figma"></i>
-                          <p>Design Proposal</p>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a class="link-color" href="https://www.bymiles.nz/" target="_blank">
-                          <i class="fas fa-tv"></i>
-                          <p>View Site</p>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a class="link-color" href="https://github.com/NataliaCatalina/by-miles-portfolio"
-                          target="_blank">
-                          <i class="fab fa-github"></i>
-                          <p>Read Code</p>
-                        </a>
-                      </div>
-                    </ul>
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-                      <i class="fas fa-times mr-1"></i>
-                      Close Project
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-         <!-- Aye Empanadas Modal -->
-      <div class="portfolio-modal modal fade" id="exampleModal-04" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <button type="button" class="btn-close close-modal" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
-                    <h2 class="text-uppercase">Aye Empanadas & More</h2>
-                    <p class="item-intro text-muted">Freelance Project</p>
-                    <img class="img-fluid d-block mx-auto" src="image/aye-mockup.jpg" alt="Mockup" />
-                    <p>
-                      Website developed for Aye Empanadas, a local Wellington business specializing in Argentinian empanadas and sweet treats. The website provides a clear structure to the client's business info, and an easily editable menu for their goods.
-                    </p>
-                    <ul class="row list-inline">
-                      <div class="col">
-                        <a class="link-color" href="https://www.ayeempanadas.co.nz/" target="_blank">
-                          <i class="fas fa-tv"></i>
-                          <p>View Site</p>
-                        </a>
-                      </div>
-                    </ul>
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-                      <i class="fas fa-times mr-1"></i>
-                      Close Project
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Dev Blog -->
-      <div class="portfolio-modal modal fade" id="exampleModal-03" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <button type="button" class="btn-close close-modal" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
-                    <h2 class="text-uppercase">My Enspiral Dev Academy Blog</h2>
-                    <p class="item-intro text-muted">Assignment for Enspiral Dev Academy.</p>
-                    <img class="img-fluid d-block mx-auto" src="image/devAcademy.jpg" alt="Mockup" />
-                    <p>
-                      A blog-style website developed as a study exercise - it includes content where I reflect on the problem-solving elements of web development.
-                    </p>
-                    <ul class="row list-inline">
-                      <div class="col">
-                        <a class="link-color" href="https://nataliacatalina.github.io/" target="_blank">
-                          <i class="fas fa-tv"></i>
-                          <p>View Site</p>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a class="link-color" href="https://github.com/NataliaCatalina/NataliaCatalina.github.io.git"
-                          target="_blank">
-                          <i class="fab fa-github"></i>
-                          <p>Read Code</p>
-                        </a>
-                      </div>
-                    </ul>
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-                      <i class="fas fa-times mr-1"></i>
-                      Close Project
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Prelude Portfolio -->
-      <div class="portfolio-modal modal fade" id="exampleModal-02" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <button type="button" class="btn-close close-modal" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
-                    <h2 class="text-uppercase">Prelude</h2>
-                    <p class="item-intro text-muted">Graduation website for Yoobee Colleges 2021.</p>
-                    <img class="img-fluid d-block mx-auto" src="image/prelude-mockup.jpg" alt="Mockup" />
-                    <p>
-                      My job was to assemble a group of motivated students to create the 2021 graduation website for Yoobee Colleges. I was part of the development team, mainly in charge of creating objects and making sure they were rendered on the DOM.
-                    </p>
-                    <ul class="row list-inline">
-                      <div class="col">
-                        <a class="link-color" href="https://nataliacatalina.github.io/prelude-portfolio/index.html"
-                          target="_blank">
-                          <i class="fas fa-tv"></i>
-                          <p>View Site</p>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a class="link-color" href="https://github.com/JUANCA99COL/prelude-portfolio.git" target="_blank">
-                          <i class="fab fa-github"></i>
-                          <p>Read Code</p>
-                        </a>
-                      </div>
-                    </ul>
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-                      <i class="fas fa-times mr-1"></i>
-                      Close Project
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Weding Invitation Modal -->
-      <div class="portfolio-modal modal fade" id="exampleModal-01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <button type="button" class="btn-close close-modal" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <div class="modal-body">
-                    <h2 class="text-uppercase">Wedding Invitation</h2>
-                    <p class="item-intro text-muted">Assignment for Yoobee Colleges.</p>
-                    <img class="img-fluid d-block mx-auto" src="image/wedding-03.jpg" alt="Mockup" />
-                    <p>
-                      A beautiful wedding invitation page with an RSVP form. <br> This single web application used pure JavaScript and Bootstrap, and contains a gift list and filter system.
-                    </p>
-                    <ul class="row list-inline">
-                      <div class="col">
-                        <a class="link-color" href="https://nataliacatalina.github.io/wedding-invitation-2/"
-                          target="_blank">
-                          <i class="fas fa-tv"></i>
-                          <p>View Site</p>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a class="link-color" href="https://github.com/NataliaCatalina/wedding-invitation-2.git" target="_blank">
-                          <i class="fab fa-github"></i>
-                          <p>Read Code</p>
-                        </a>
-                      </div>
-                    </ul>
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-                      <i class="fas fa-times mr-1"></i>
-                      Close Project
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-
-    <!-- PHOTO STOCK-->
-    <div class="page-section portfolio" id="photostock">
-      <div class="container">
-        <div class="text-center">
-          <h2 class="section-heading p-3 mt-5">PhotoStock Contributor</h2>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" href="https://www.shutterstock.com/g/nataliacatalina" target="_blank">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/photostock-shutterstock.jpg"
-                  alt="Mockup of Natalia's portfolio in Shutterstock website" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Shutterstock</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="portfolio-item">
-              <a class="portfolio-link"
-                href="https://www.gettyimages.co.nz/search/photographer?family=creative&photographer=natalia%20ramirez%20roman%20%2F%20500px&sort=best#license"
-                target="_blank">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/photostock-gettyimages.jpg"
-                  alt="Mockup of Natalia's portfolio in Getty Images website" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Getty Images</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" href="https://stock.adobe.com/es/contributor/206593465/natalia" target="_blank">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/photostock-adobestock.jpg"
-                  alt="Mockup of Natalia's portfolio in Adobe Stock website" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Adobe Stock</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-            <div class="portfolio-item">
-              <a class="portfolio-link" href="https://500px.com/p/nataliacatalina?view=licensing" target="_blank">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/photostock-500px.jpg"
-                  alt="Mockup of Natalia's portfolio in 500px website" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">500px</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4">
-            <div class="portfolio-item">
-              <a class="portfolio-link" href="https://www.istockphoto.com/portfolio/nataliacatalina?sort=best"
-                target="_blank">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/photostock-istock.jpg"
-                  alt="Mockup of Natalia's portfolio in istock website" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">Istock</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-            <div class="portfolio-item">
-              <a class="portfolio-link" href="https://www.123rf.com/profile_nataliacatalina" target="_blank">
-                <div class="portfolio-hover">
-                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                </div>
-                <img class="img-fluid" src="image/photostock-123.jpg"
-                  alt="Mockup of Natalia's portfolio in 123rf website" />
-              </a>
-              <div class="portfolio-caption">
-                <div class="portfolio-caption-heading">123RF</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT ME  -->
-  <section id="contact">
-    <div class="circle parallax bgOne">
-      <i class="fas fa-envelope"></i>
-    </div>
-    <h2 class="m-5">Contact Me</h2>
-    <div class="container-fluid">
-      <p class="pb-3">Natalia Catalina Ramirez Roman <br>
-        Wellington, New Zealand
-      </p>
-      <p class="pb-3">
-        <a href="tel:0273242055"></a>+64 27 324 2055 <br>
-        <a href="mailto:ntlc.ramirez@gmail.com">ntlc.ramirez@gmail.com</a>
-      </p>
-
-
-      <div class="row">
-        <div class="col ">
-          <a class="link-color" href="mailto:ntl.ramirez@gmail.com"><i class="far fa-paper-plane m-3"></i></a>
-          <a class="link-color" href="https://www.linkedin.com/in/nataliacatalina/" target="_blank"><i
-              class="fab fa-linkedin m-3"></i></a>
-          <a class="link-color" href="https://github.com/NataliaCatalina"><i class="fab fa-github m-3"></i></a>
-        </div>
-      </div>
-      <p>@ Natalia Catalina 2023</p>
-    </div>
-  </section>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+      gtag('config', 'G-P3JNWS7YVM')
     </script>
-  <script src="js/script.js"></script>
-</body>
 
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font-awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Overpass:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Natalia Catalina</title>
+  </head>
+
+  <body>
+    <!-- welcome text -->
+    <div class="parallax bgOne">
+      <div id="home" class="parallax bgOne">
+        <div class="container text-center text-white welcome-txt">
+          <h1 class="hi">Hi, I'm</h1>
+          <h1 class="welcome-name">Natalia Catalina</h1>
+          <h2 class="welcome-title">Web Developer & Photo Artist</h2>
+        </div>
+      </div>
+
+      <div class="container-fluid top-nav bg-transparent sticky-top">
+        <nav
+          class="nav nav-pills justify-content-center fw-bold fixed-top bg-light"
+        >
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </nav>
+      </div>
+    </div>
+    <div class="separation-arrow parallax bgOne"></div>
+
+    <!-- ABOUT  -->
+    <section class="mt-5" id="about">
+      <!-- <div class="vertical-line parallax bgOne"></div> -->
+      <img class="mt-5" src="image/profile-natalia.png" alt="" />
+      <h2 class="m-5">About Me</h2>
+      <div class="container w-20">
+        <p>
+          Coming from a background in visual design, I have discovered a passion
+          for Web, specifically Front-End Development. <br />
+          I have a desire to develop meaningful products and services.<br /><br />
+          Powered by Figma, VS Code, and coffee, I bring ideas to life, and my
+          background in the Adobe Suite has proven valuable within web.<br /><br />
+          I also deliver a large range of quality photos to a variety of
+          high-profile photostock websites.
+        </p>
+      </div>
+      <img
+        class="img-fluid"
+        src="image/skills.png"
+        alt="skills: htmll, JavaScript, css, jquery, sass, bootstrap, MySQL, node.js, php, wordpress, github, Visual Studio Code, Atom, Trello, Figma, Adobe Bridge, Adobe Lightroom, Adobe Photoshop"
+      />
+    </section>
+
+    <section class="mt-5" id="projects">
+      <div class="mt-5 circle parallax bgOne">
+        <i class="fas fa-award"></i>
+      </div>
+      <h2 class="m-5">Website Portfolio</h2>
+
+      <!-- WEBSITES  -->
+      <div class="page-section portfolio" id="websites">
+        <div class="container">
+          <div class="row">
+            <!-- My Portfolio  -->
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-07"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/natalia-mockup.jpg"
+                    alt="ByMiles Mockup"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">
+                    Natalia Catalina Portfolio
+                  </div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Webflow Personal Project
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sagar Portfolio  -->
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-06"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/sagar-mockup.jpg"
+                    alt="ByMiles Mockup"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Sagar Portfolio</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Freelance Project
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ByMiles Portfolio  -->
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-05"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/ByMiles.jpg"
+                    alt="ByMiles Mockup"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">ByMiles Portfolio</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Freelance Project
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Aye Empanadas  -->
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-04"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/aye-mockup.jpg"
+                    alt="Mockup"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">
+                    Aye Empanadas & More
+                  </div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Freelance Project
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Enspiral Dev Blog  -->
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-03"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/devAcademy.jpg"
+                    alt="Mockup"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">
+                    My Enspiral Dev Academy Blog
+                  </div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Enspiral Dev Academy Projects
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Prelude Portfolio  -->
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  type="button"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-02"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/prelude-mockup.jpg"
+                    alt="Mockup"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Prelude</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Graduation website for Yoobee Colleges 2021
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal  -->
+
+        <!-- My Portfolio Modal -->
+        <div
+          class="portfolio-modal modal fade"
+          id="exampleModal-07"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <button
+                type="button"
+                class="btn-close close-modal"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <h2 class="text-uppercase">Natalia Catalina Portfolio</h2>
+                      <p class="item-intro text-muted">
+                        Webflow Personal Project
+                      </p>
+                      <img
+                        class="img-fluid d-block mx-auto"
+                        src="image/natalia-mockup.jpg"
+                        alt="Mockup"
+                      />
+                      <p>
+                        Redesigned web portfolio built on Webflow! As a
+                        passionate web designer and developer, I've carefully
+                        curated this showcase to highlight some of my latest
+                        projects and skills. Explore the seamless user
+                        experience, captivating designs, and innovative
+                        functionalities that reflect my dedication to creating
+                        impactful digital experiences.
+                      </p>
+                      <ul class="row list-inline">
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://nataliacatalina-portfolio.webflow.io/"
+                            target="_blank"
+                          >
+                            <i class="fas fa-tv"></i>
+                            <p>View Site</p>
+                          </a>
+                        </div>
+                      </ul>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        <i class="fas fa-times mr-1"></i>
+                        Close Project
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sagar Modal -->
+        <div
+          class="portfolio-modal modal fade"
+          id="exampleModal-06"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <button
+                type="button"
+                class="btn-close close-modal"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <h2 class="text-uppercase">Sagar Portfolio</h2>
+                      <p class="item-intro text-muted">Freelance Project</p>
+                      <img
+                        class="img-fluid d-block mx-auto"
+                        src="image/sagar-mockup.jpg"
+                        alt="Mockup"
+                      />
+                      <p>
+                        Website designed in WordPress to highlight Sagar
+                        portfolio in various fields. This comprehensive showcase
+                        features their work in 3D animation, motion capture,
+                        visual effects (VFX), acting, and related areas.
+                        Visitors can explore a wide range of talents and
+                        accomplishments, gaining valuable insights into the
+                        client's expertise and capabilities. With a
+                        user-friendly interface and seamless navigation, the
+                        WordPress-powered website provides an immersive
+                        experience, allowing viewers to delve into Sagar's
+                        creative journey and remarkable achievements.
+                      </p>
+                      <ul class="row list-inline">
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://www.sagarlonkar.com/"
+                            target="_blank"
+                          >
+                            <i class="fas fa-tv"></i>
+                            <p>View Site</p>
+                          </a>
+                        </div>
+                      </ul>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        <i class="fas fa-times mr-1"></i>
+                        Close Project
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ByMiles Modal -->
+        <div
+          class="portfolio-modal modal fade"
+          id="exampleModal-05"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <button
+                type="button"
+                class="btn-close close-modal"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <h2 class="text-uppercase">ByMiles Portfolio</h2>
+                      <p class="item-intro text-muted">Freelance Project</p>
+                      <img
+                        class="img-fluid d-block mx-auto"
+                        src="image/ByMiles.jpg"
+                        alt="Mockup"
+                      />
+                      <p>
+                        A portfolio page developed for the ByMiles brand - a
+                        freelancer specializing in film and animation. The
+                        REACT-based website was designed as a clean,
+                        theatre-like experience to showcase the visual elements
+                        of their work.
+                      </p>
+                      <ul class="row list-inline">
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://www.figma.com/file/QputyjSu2yN3agFXiPuH4C/BY-MILES?node-id=0%3A1"
+                            target="_blank"
+                          >
+                            <i class="fab fa-figma"></i>
+                            <p>Design Proposal</p>
+                          </a>
+                        </div>
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://www.bymiles.nz/"
+                            target="_blank"
+                          >
+                            <i class="fas fa-tv"></i>
+                            <p>View Site</p>
+                          </a>
+                        </div>
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://github.com/NataliaCatalina/by-miles-portfolio"
+                            target="_blank"
+                          >
+                            <i class="fab fa-github"></i>
+                            <p>Read Code</p>
+                          </a>
+                        </div>
+                      </ul>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        <i class="fas fa-times mr-1"></i>
+                        Close Project
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aye Empanadas Modal -->
+        <div
+          class="portfolio-modal modal fade"
+          id="exampleModal-04"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <button
+                type="button"
+                class="btn-close close-modal"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <h2 class="text-uppercase">Aye Empanadas & More</h2>
+                      <p class="item-intro text-muted">Freelance Project</p>
+                      <img
+                        class="img-fluid d-block mx-auto"
+                        src="image/aye-mockup.jpg"
+                        alt="Mockup"
+                      />
+                      <p>
+                        Website developed for Aye Empanadas, a local Wellington
+                        business specializing in Argentinian empanadas and sweet
+                        treats. The website provides a clear structure to the
+                        client's business info, and an easily editable menu for
+                        their goods.
+                      </p>
+                      <ul class="row list-inline">
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://www.ayeempanadas.co.nz/"
+                            target="_blank"
+                          >
+                            <i class="fas fa-tv"></i>
+                            <p>View Site</p>
+                          </a>
+                        </div>
+                      </ul>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        <i class="fas fa-times mr-1"></i>
+                        Close Project
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dev Blog -->
+        <div
+          class="portfolio-modal modal fade"
+          id="exampleModal-03"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <button
+                type="button"
+                class="btn-close close-modal"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <h2 class="text-uppercase">
+                        My Enspiral Dev Academy Blog
+                      </h2>
+                      <p class="item-intro text-muted">
+                        Assignment for Enspiral Dev Academy.
+                      </p>
+                      <img
+                        class="img-fluid d-block mx-auto"
+                        src="image/devAcademy.jpg"
+                        alt="Mockup"
+                      />
+                      <p>
+                        A blog-style website developed as a study exercise - it
+                        includes content where I reflect on the problem-solving
+                        elements of web development.
+                      </p>
+                      <ul class="row list-inline">
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://nataliacatalina.github.io/"
+                            target="_blank"
+                          >
+                            <i class="fas fa-tv"></i>
+                            <p>View Site</p>
+                          </a>
+                        </div>
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://github.com/NataliaCatalina/NataliaCatalina.github.io.git"
+                            target="_blank"
+                          >
+                            <i class="fab fa-github"></i>
+                            <p>Read Code</p>
+                          </a>
+                        </div>
+                      </ul>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        <i class="fas fa-times mr-1"></i>
+                        Close Project
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prelude Portfolio -->
+        <div
+          class="portfolio-modal modal fade"
+          id="exampleModal-02"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <button
+                type="button"
+                class="btn-close close-modal"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <h2 class="text-uppercase">Prelude</h2>
+                      <p class="item-intro text-muted">
+                        Graduation website for Yoobee Colleges 2021.
+                      </p>
+                      <img
+                        class="img-fluid d-block mx-auto"
+                        src="image/prelude-mockup.jpg"
+                        alt="Mockup"
+                      />
+                      <p>
+                        My job was to assemble a group of motivated students to
+                        create the 2021 graduation website for Yoobee Colleges.
+                        I was part of the development team, mainly in charge of
+                        creating objects and making sure they were rendered on
+                        the DOM.
+                      </p>
+                      <ul class="row list-inline">
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://nataliacatalina.github.io/prelude-portfolio/index.html"
+                            target="_blank"
+                          >
+                            <i class="fas fa-tv"></i>
+                            <p>View Site</p>
+                          </a>
+                        </div>
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://github.com/JUANCA99COL/prelude-portfolio.git"
+                            target="_blank"
+                          >
+                            <i class="fab fa-github"></i>
+                            <p>Read Code</p>
+                          </a>
+                        </div>
+                      </ul>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        <i class="fas fa-times mr-1"></i>
+                        Close Project
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Weding Invitation Modal -->
+        <div
+          class="portfolio-modal modal fade"
+          id="exampleModal-01"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <button
+                type="button"
+                class="btn-close close-modal"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              >
+                <i class="fas fa-times"></i>
+              </button>
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <div class="modal-body">
+                      <h2 class="text-uppercase">Wedding Invitation</h2>
+                      <p class="item-intro text-muted">
+                        Assignment for Yoobee Colleges.
+                      </p>
+                      <img
+                        class="img-fluid d-block mx-auto"
+                        src="image/wedding-03.jpg"
+                        alt="Mockup"
+                      />
+                      <p>
+                        A beautiful wedding invitation page with an RSVP form.
+                        <br />
+                        This single web application used pure JavaScript and
+                        Bootstrap, and contains a gift list and filter system.
+                      </p>
+                      <ul class="row list-inline">
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://nataliacatalina.github.io/wedding-invitation-2/"
+                            target="_blank"
+                          >
+                            <i class="fas fa-tv"></i>
+                            <p>View Site</p>
+                          </a>
+                        </div>
+                        <div class="col">
+                          <a
+                            class="link-color"
+                            href="https://github.com/NataliaCatalina/wedding-invitation-2.git"
+                            target="_blank"
+                          >
+                            <i class="fab fa-github"></i>
+                            <p>Read Code</p>
+                          </a>
+                        </div>
+                      </ul>
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                      >
+                        <i class="fas fa-times mr-1"></i>
+                        Close Project
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PHOTO STOCK-->
+      <div class="page-section portfolio" id="photostock">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="section-heading p-3 mt-5">PhotoStock Contributor</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  href="https://www.shutterstock.com/g/nataliacatalina"
+                  target="_blank"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/photostock-shutterstock.jpg"
+                    alt="Mockup of Natalia's portfolio in Shutterstock website"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Shutterstock</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  href="https://www.gettyimages.co.nz/search/photographer?family=creative&photographer=natalia%20ramirez%20roman%20%2F%20500px&sort=best#license"
+                  target="_blank"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/photostock-gettyimages.jpg"
+                    alt="Mockup of Natalia's portfolio in Getty Images website"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Getty Images</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  href="https://stock.adobe.com/es/contributor/206593465/natalia"
+                  target="_blank"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/photostock-adobestock.jpg"
+                    alt="Mockup of Natalia's portfolio in Adobe Stock website"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Adobe Stock</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  href="https://500px.com/p/nataliacatalina?view=licensing"
+                  target="_blank"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/photostock-500px.jpg"
+                    alt="Mockup of Natalia's portfolio in 500px website"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">500px</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  href="https://www.istockphoto.com/portfolio/nataliacatalina?sort=best"
+                  target="_blank"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/photostock-istock.jpg"
+                    alt="Mockup of Natalia's portfolio in istock website"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Istock</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  href="https://www.123rf.com/profile_nataliacatalina"
+                  target="_blank"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="img-fluid"
+                    src="image/photostock-123.jpg"
+                    alt="Mockup of Natalia's portfolio in 123rf website"
+                  />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">123RF</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT ME  -->
+    <section id="contact">
+      <div class="circle parallax bgOne">
+        <i class="fas fa-envelope"></i>
+      </div>
+      <h2 class="m-5">Contact Me</h2>
+      <div class="container-fluid">
+        <p class="pb-3">
+          Natalia Catalina Ramirez Roman <br />
+          Wellington, New Zealand
+        </p>
+        <p class="pb-3">
+          <a href="tel:0273242055"></a>+64 27 324 2055 <br />
+          <a href="mailto:ntlc.ramirez@gmail.com">ntlc.ramirez@gmail.com</a>
+        </p>
+
+        <div class="row">
+          <div class="col">
+            <a class="link-color" href="mailto:ntl.ramirez@gmail.com"
+              ><i class="far fa-paper-plane m-3"></i
+            ></a>
+            <a
+              class="link-color"
+              href="https://www.linkedin.com/in/nataliacatalina/"
+              target="_blank"
+              ><i class="fab fa-linkedin m-3"></i
+            ></a>
+            <a class="link-color" href="https://github.com/NataliaCatalina"
+              ><i class="fab fa-github m-3"></i
+            ></a>
+          </div>
+        </div>
+        <p>@ Natalia Catalina 2023</p>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
