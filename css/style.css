@@ -126,6 +126,7 @@ p {
   position: relative;
   display: block;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-item .portfolio-link .portfolio-hover {
