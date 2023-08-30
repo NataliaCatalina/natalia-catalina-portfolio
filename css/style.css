@@ -97,7 +97,8 @@ p {
 
 .fa-award,
 .fa-envelope,
-.fa-concierge-bell {
+.fa-concierge-bell,
+.fa-user-astronaut {
   position: absolute;
   top: 50%;
   left: 50%;
