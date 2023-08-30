@@ -25,6 +25,8 @@
       crossorigin="anonymous"
     >
 
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+
     <!-- Google Font  -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -44,6 +46,37 @@
   </head>
 
   <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid container">
+        <a class="navbar-brand " href="#">
+          <img src="image/nc-logo.png" alt="natalia logo" width="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end fw-bold" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!-- welcome text -->
     <div class="parallax bgOne">
       <div id="home" class="parallax bgOne">
@@ -54,30 +87,12 @@
         </div>
       </div>
 
-      <div class="container-fluid top-nav bg-transparent sticky-top">
-        <nav>
-          <ul class="nav nav-pills justify-content-center fw-bold fixed-top bg-light">
-            <li class="nav-item">
-              <a href="#" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#projects" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
     </div>
     <div class="separation-arrow parallax bgOne"></div>
 
     <!-- ABOUT  -->
     <section class="mt-5" id="about">
-      <!-- <div class="vertical-line parallax bgOne"></div> -->
+
       <img class="mt-5" src="image/profile-natalia.png" alt="profile photo os natalia">
       <h2 class="m-5">About Me</h2>
       <div class="container w-20">
@@ -98,6 +113,77 @@
       >
     </section>
 
+    <!-- Services  -->
+    <section class="mt-5" id="services">
+      <div class="mt-5 circle parallax bgOne">
+        <i class="fas fa-concierge-bell"></i>
+      </div>
+      <h2 class="m-5">Services</h2>
+
+      <div class="container">
+        <div class="card-group ">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
+
+            <div class="card d-flex flex-column align-items-center">
+              <lord-icon
+                  src="https://cdn.lordicon.com/saewqqfz.json"
+                  trigger="morph"
+                  colors="primary:#4be1ec,secondary:#cb5eee"
+                  style="width:250px;height:250px">
+              </lord-icon>
+              <div class="card-body">
+                <h5 class="card-title">UI / UX Design</h5>
+                <p class="card-text">
+                  Delivering compelling and user-centered UI/UX designs that elevate digital experiences to new heights.
+                </p>
+              </div>
+            </div>
+            <div class="card d-flex flex-column align-items-center">
+              <lord-icon
+                  src="https://cdn.lordicon.com/kxrhwtdg.json"
+                  trigger="hover"
+                  colors="primary:#4be1ec,secondary:#cb5eee"
+                  style="width:250px;height:250px">
+              </lord-icon>
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">Crafting high-performance websites with clean code and optimal functionality, leveraging the latest web development technologies to deliver robust and dynamic online solutions.</p>
+              </div>
+            </div>
+            <div class="card d-flex flex-column align-items-center">
+              <lord-icon
+                  src="https://cdn.lordicon.com/lxotnbfa.json"
+                  trigger="hover"
+                  colors="primary:#4be1ec,secondary:#cb5eee"
+                  style="width:250px;height:250px">
+              </lord-icon>
+              <div class="card-body">
+                <h5 class="card-title">Photography</h5>
+                <p class="card-text">
+                  Capturing moments and emotions through a lens, delivering captivating and professionally crafted photographs that tell compelling stories and evoke powerful emotions.
+                </p>
+              </div>
+            </div>
+            <div class="card d-flex flex-column align-items-center">
+              <lord-icon
+                  src="https://cdn.lordicon.com/edxgdhxu.json"
+                  trigger="hover"
+                  colors="primary:#4be1ec,secondary:#cb5eee"
+                  style="width:250px;height:250px">
+              </lord-icon>
+              <div class="card-body">
+                <h5 class="card-title">Photo Retouch</h5>
+                <p class="card-text">
+                  Enhancing the beauty of every image, I offer expert photo retouching services that breathe life into photographs, ensuring impeccable quality, flawless details, and stunning visual impact.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <section class="mt-5" id="projects">
       <div class="mt-5 circle parallax bgOne">
         <i class="fas fa-award"></i>
@@ -108,7 +194,8 @@
       <div class="page-section portfolio" id="websites">
         <div class="container">
           <div class="row">
-            <!-- My Portfolio  -->
+
+            <!-- My Webflow Portfolio  -->
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
                 <a
@@ -248,9 +335,7 @@
           </div>
         </div>
 
-        <!-- Modal  -->
-
-        <!-- My Portfolio Modal -->
+        <!-- Webflow Portfolio Modal -->
         <div
           class="portfolio-modal modal fade"
           id="exampleModal-07"
@@ -309,6 +394,7 @@
             </div>
           </div>
         </div>
+
         <!-- Sagar Modal -->
         <div
           class="portfolio-modal modal fade"
@@ -367,6 +453,7 @@
             </div>
           </div>
         </div>
+
         <!-- ByMiles Modal -->
         <div
           class="portfolio-modal modal fade"
@@ -496,7 +583,7 @@
           </div>
         </div>
 
-        <!-- Dev Blog -->
+        <!-- Dev Blog Modal -->
         <div
           class="portfolio-modal modal fade"
           id="exampleModal-03"
@@ -563,7 +650,7 @@
           </div>
         </div>
 
-        <!-- Prelude Portfolio -->
+        <!-- Prelude Portfolio Modal-->
         <div
           class="portfolio-modal modal fade"
           id="exampleModal-02"

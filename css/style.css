@@ -96,7 +96,8 @@ p {
 }
 
 .fa-award,
-.fa-envelope {
+.fa-envelope,
+.fa-concierge-bell {
   position: absolute;
   top: 50%;
   left: 50%;
