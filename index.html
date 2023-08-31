@@ -58,7 +58,7 @@
         <div class="collapse navbar-collapse justify-content-end fw-bold" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -91,8 +91,8 @@
     <div class="separation-arrow parallax bgOne"></div>
 
     <!-- ABOUT  -->
-    <section class="mt-5" id="about">
-      <div class="mt-5 circle parallax bgOne">
+    <section class="m-5" id="about">
+      <div class="circle parallax bgOne">
         <i class="fas fa-user-astronaut"></i>
       </div>
       <h2 class="m-5">About Me</h2>
@@ -123,8 +123,8 @@
     </section>
 
     <!-- Services  -->
-    <section class="mt-5" id="services">
-      <div class="mt-5 circle parallax bgOne">
+    <section class="m-5 " id="services">
+      <div class="circle parallax bgOne">
         <i class="fas fa-concierge-bell"></i>
       </div>
       <h2 class="m-5">Services</h2>
@@ -194,39 +194,28 @@
     </section>
 
     <section class="mt-5" id="projects">
-      <div class="mt-5 circle parallax bgOne">
+      <div class="circle parallax bgOne">
         <i class="fas fa-award"></i>
       </div>
-      <h2 class="m-5">Website Portfolio</h2>
+      <h2 class="mt-5">Portfolio</h2>
 
+      <ul class="nav justify-content-center mb-5">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" data-category="all">All</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-category="websites">Websites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-category="photostock">Photostock</a>
+        </li>
+      </ul>
+
+      </div>
       <!-- WEBSITES  -->
-      <div class="page-section portfolio" id="websites">
+      <div class="page-section portfolio"  data-category="websites" id="websites">
         <div class="container">
           <div class="row">
-
-            <!-- My Webflow Portfolio  -->
-            <div class="col-lg-4 col-sm-6 mb-4">
-              <div class="portfolio-item">
-                <a
-                  class="portfolio-link"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal-07"
-                >
-                  <div class="portfolio-hover">
-                    <div class="portfolio-hover-content">
-                      <i class="fas fa-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="image/natalia-mockup.jpg" alt="ByMiles Mockup">
-                </a>
-                <div class="portfolio-caption">
-                  <div class="portfolio-caption-heading">Natalia Catalina Portfolio</div>
-                  <div class="portfolio-caption-subheading text-muted">
-                    Webflow Personal Project
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <!-- Sagar Portfolio  -->
             <div class="col-lg-4 col-sm-6 mb-4">
@@ -336,7 +325,31 @@
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">Prelude</div>
                   <div class="portfolio-caption-subheading text-muted">
-                    Graduation website for Yoobee Colleges 2021
+                    Graduation Website for Yoobee Colleges 2021
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- My Webflow Portfolio  -->
+             <div class="col-lg-4 col-sm-6 mb-4" >
+              <div class="portfolio-item">
+                <a
+                  class="portfolio-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal-07"
+                >
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="image/natalia-mockup.jpg" alt="ByMiles Mockup">
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Natalia Catalina Portfolio</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Webflow Personal Project
                   </div>
                 </div>
               </div>
@@ -732,11 +745,8 @@
       </div>
 
       <!-- PHOTO STOCK-->
-      <div class="page-section portfolio" id="photostock">
+      <div class="page-section portfolio" id="photostock" data-category="photostock">
         <div class="container">
-          <div class="text-center">
-            <h2 class="section-heading p-3 mt-5">PhotoStock Contributor</h2>
-          </div>
           <div class="row">
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="portfolio-item">
@@ -758,7 +768,11 @@
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">Shutterstock</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Photo Stock Contributor
+                  </div>
                 </div>
+                
               </div>
             </div>
             <div class="col-lg-4 col-sm-6">
@@ -781,6 +795,9 @@
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">Getty Images</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Photo Stock Contributor
+                  </div>
                 </div>
               </div>
             </div>
@@ -804,6 +821,9 @@
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">Adobe Stock</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Photo Stock Contributor
+                  </div>
                 </div>
               </div>
             </div>
@@ -827,6 +847,9 @@
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">500px</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Photo Stock Contributor
+                  </div>
                 </div>
               </div>
             </div>
@@ -850,6 +873,9 @@
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">Istock</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Photo Stock Contributor
+                  </div>
                 </div>
               </div>
             </div>
@@ -873,6 +899,9 @@
                 </a>
                 <div class="portfolio-caption">
                   <div class="portfolio-caption-heading">123RF</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Photo Stock Contributor
+                  </div>
                 </div>
               </div>
             </div>
@@ -882,7 +911,7 @@
     </section>
 
     <!-- CONTACT ME  -->
-    <section id="contact">
+    <section class="mt-5" id="contact">
       <div class="circle parallax bgOne">
         <i class="fas fa-envelope"></i>
       </div>
