@@ -38,6 +38,10 @@ p {
   background-color: #313131;
 }
 
+section {
+  padding-top: 60px !important;
+}
+
 .welcome-txt {
   padding-top: 15%;
   padding-bottom: 10%;
