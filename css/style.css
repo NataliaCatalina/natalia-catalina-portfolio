@@ -233,4 +233,10 @@ p {
   .welcome-title {
     font-size: 1.5rem;
   }
+
+  .parallax,
+  .parallax-two {
+    background-size: contain;
+    background-attachment: scroll;
+  }
 }
