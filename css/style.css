@@ -52,7 +52,7 @@ p {
 }
 
 .parallax {
-  height: auto;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -69,6 +69,7 @@ p {
 
 .bgOne {
   background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg");
+  background-color: #3e1772 !important;
 }
 
 .nav-link {
