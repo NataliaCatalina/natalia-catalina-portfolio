@@ -236,7 +236,7 @@ p {
 
   .parallax,
   .parallax-two {
-    background-size: contain;
+    background-size: 100% 100%;
     background-attachment: scroll;
   }
 }
