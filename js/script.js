@@ -3,21 +3,22 @@ const portfolioItems = document.querySelectorAll('.portfolio');
 
 portfolioNavLinks.forEach(link => {
   link.addEventListener('click', function(event) {
-
-    event.preventDefault();
+    const selectedCategory = this.getAttribute('data-category');
 
     portfolioNavLinks.forEach(link => link.classList.remove('active'));
 
-    this.classList.add('active');
+    if (selectedCategory !== 'photosretouch') {
+      event.preventDefault();
+    }
 
-    const selectedCategory = this.getAttribute('data-category');
+    this.classList.add('active');
 
     portfolioItems.forEach(item => {
       const itemCategory = item.getAttribute('data-category');
-      if (selectedCategory === 'all' || itemCategory === selectedCategory) {
-        item.style.display = 'block'; 
+      if (selectedCategory === 'all' || itemCategory === selectedCategory || selectedCategory === 'photosretouch') {
+        item.style.display = 'block';
       } else {
-        item.style.display = 'none'; 
+        item.style.display = 'none';
       }
     });
   });
